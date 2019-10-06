@@ -29,9 +29,9 @@ export default class DetailPage extends Component<Props> {
     render() {
         
         return <div>
-            <p>这是 detailpage! {this.state.number}</p>
-            
-            <p>{this.props.num}</p>
+            <h2>detailpage详情页面</h2>
+            <p>路由传参：{this.state.number}</p>
+            <p>home：{this.props.num}</p>
         </div>
     }
 }

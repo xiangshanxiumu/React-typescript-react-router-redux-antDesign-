@@ -1,7 +1,14 @@
+/*
+ * @Description: In User Settings Edit
+ * @Author: your name
+ * @Date: 2019-10-05 13:39:42
+ * @LastEditTime: 2019-10-05 13:39:42
+ * @LastEditors: your name
+ */
 export const INCREMENT = "INCREMENT"
 export const REDUCE = "REDUCE"
 
-export const incrementAction = {type: INCREMENT, count: 2}
+export const incrementAction = {type: INCREMENT, count: 1}
 export const reduceAction = {type: REDUCE, count: 1}
 
 interface ReduxState {
